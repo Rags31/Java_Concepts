@@ -7,6 +7,7 @@ public class fileWriter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//To Write the Character or Text Data
+		//We have to insert line separator manually is one of the disadvantage
 		try (FileWriter f= new FileWriter("abc.txt")) {	
 			//FileWriter f= new FileWriter("abc.txt",true);//true refers to append to the file
 			File file = new File("jsr.txt");

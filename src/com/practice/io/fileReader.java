@@ -6,6 +6,7 @@ public class fileReader {
 
 	public static void main(String[] args) throws Exception {
 		//To Read the Character or Text Data
+		//Disadvantage of File Reader is it will read char by char , so its not recommended to use for large file size
 		try {
 		File file = new File ("Party.txt");
 		FileReader fr=new FileReader(file);

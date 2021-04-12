@@ -1,0 +1,13 @@
+if we need to read/write character data(text data) , then we can go for Reader/Writer.
+
+if we need to read/write binary data(video,audio,image) , then we can go for Streams.(Input/Output Streams)
+
+												Object
+										
+							Writer									Reader
+								
+		Output Stream Writer  Buffered Writer Print Writer  	Input Stream Reader Buffered Reader
+					
+		File Writer												File Reader
+
+							

@@ -13,6 +13,7 @@ public class bufferedReader {
 		//We can read data line by line also char by char
 		
 		//Buffered Reader cannot communicate directly with file
+		
 		FileReader fr=new FileReader("Party.txt");
 		BufferedReader br= new BufferedReader(fr);// communicate with file via file reader
 		//BufferedReader br1= new BufferedReader(br);// communicate with file via buffered reader

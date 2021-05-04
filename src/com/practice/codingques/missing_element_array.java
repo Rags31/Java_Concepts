@@ -10,6 +10,19 @@ public class missing_element_array {
 
 	public static void main(String[] args) {
 		
+		
+		//if the missing number is only one element , we can use the below method
+		
+		int arr[]= {1,2,3,5};
+		int length=arr.length+1;
+		int esum=length * ((length + 1)/2);
+		int rsum=0;
+		for(int b:arr)
+		{
+			rsum+=b;
+		}
+		System.out.println("Expected Sum : "+esum+"\nReality Sum : "+rsum+"\nMissing Element : "+(esum-rsum));
+		
 		//Missing elements in Array
 		Integer a[]= {1,2,4,5,8,6};
 		List<Integer> list=new ArrayList(Arrays.asList(a));

@@ -12,21 +12,19 @@ public class list {
 		
 		
 		
+		
 		//String sort
-		List l=new ArrayList();
-		list l1=new list();
-		list l2=new list();
-		l.add(l1);
-		l.add(l2);
-		/*l.add("aAaA");
-		l.add("AaA");
-		l.add("aAa");
-		l.add("AAaa");
-		*/Collections.sort(l);
-		for (int i=0;i<l.size();i++)
-		{
-			System.out.println(l.get(i));
-		}
+		
+		ArrayList l1=new ArrayList(Arrays.asList(7,5,9,3));
+		ArrayList l2=new ArrayList(Arrays.asList(8,6,2,10));
+		Collections.sort(l1);
+		Collections.sort(l2);
+		System.out.println(l1);
+		System.out.println(l2);
+		System.out.println(Collections.max(l1));
+	
+		
+		System.out.println(Collections.binarySearch(l1, Collections.max(l1)));
 		
 		
 		

@@ -17,7 +17,7 @@ public class string_segmentation {
 			if (second == null || second.length() == 0 || dict.contains(second) || segment(dict,second)) {
 				System.out.println(second+" is present in the dict");
 		          return true;
-		}
+			}
 			else
 			{
 				System.out.println(second+" is not present in the dict");
@@ -42,12 +42,11 @@ public class string_segmentation {
 		dict.add("apple");
 		System.out.println(dict);
 		String s="applepeer";
-		String first;
-		String second;
 		boolean b=segment(dict, s);
 		if (b)
 			System.out.println("String can be Segmented");
-		
+		else
+			System.out.println("String cannot be Segmented");
 	}
 
 }

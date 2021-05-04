@@ -9,7 +9,10 @@ public class sum_of_two_integers_array {
 		// TODO Auto-generated method stub
 		
 		Integer a[]= {5,7,1,2,8,4,3};
-		System.out.println("Given Array"+a);
+		System.out.println("Given Array");
+		for (Integer i:a)
+			System.out.print(i+" ");
+		
 		List<Integer> list=new ArrayList(Arrays.asList(a));
 		int tsum=10;
 		for (int i=0;i<list.size();i++)
@@ -19,7 +22,7 @@ public class sum_of_two_integers_array {
 				
 				if (a[i]+a[j]==tsum)
 				{
-					System.out.println(a[i]+","+a[j]);
+					System.out.println("\n"+a[i]+","+a[j]);
 				}
 				
 			}

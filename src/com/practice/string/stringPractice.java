@@ -1,4 +1,4 @@
-package com.practice.jsr;
+package com.practice.string;
 import java.util.*;
 import java.util.regex.Pattern;
 
@@ -9,8 +9,6 @@ public class stringPractice {
 	
 
 	public static void main(String[] args) {
-		
-		
 
 		
 		/*//char count
